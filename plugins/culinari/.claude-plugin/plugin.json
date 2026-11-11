@@ -1,0 +1,23 @@
+{
+  "name": "culinari",
+  "description": "Culinari – Kochassistent mit KI-Koch-Familie: Rezepte sammeln und importieren, Wochenplan, Einkaufsliste, Resteküche, Nährwerte (BLS 4.0) und Schritt-für-Schritt-Kochen. Verbindet den Culinari-MCP-Server (OAuth, Anmeldung per E-Mail-Link) und bringt Skills für die typischen Abläufe mit.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Leon Nonnast",
+    "url": "https://nonnast.dev"
+  },
+  "homepage": "https://culinari.nonnast.dev",
+  "repository": "https://github.com/LeonNonnast/nonnast-dev-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "kochen",
+    "rezepte",
+    "essensplanung",
+    "einkaufsliste",
+    "naehrwerte",
+    "cooking",
+    "recipes",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://culinari.nonnast.dev/legal"
+}

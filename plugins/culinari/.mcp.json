@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "culinari": {
+      "type": "http",
+      "url": "https://culinari.nonnast.dev/mcp"
+    }
+  }
+}

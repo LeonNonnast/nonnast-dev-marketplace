@@ -1,0 +1,22 @@
+{
+  "name": "taskflow",
+  "description": "TaskFlow – Aufgabenverwaltung im Browser und direkt im Chat. Verbindet den TaskFlow-MCP-Server (OAuth mit Microsoft- oder Google-Konto) und bringt Skills mit: Einrichtung, Aufgaben aus Mails/Meetings erfassen, Tages- und Wochenüberblick, Projekte mit Unteraufgaben planen, Routinen und Fehlerhilfe.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Leon Nonnast",
+    "url": "https://nonnast.dev"
+  },
+  "homepage": "https://www.task-flow.ai",
+  "repository": "https://github.com/LeonNonnast/nonnast-dev-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "aufgaben",
+    "todo",
+    "projekte",
+    "kanban",
+    "tasks",
+    "productivity",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://www.task-flow.ai/privacy"
+}

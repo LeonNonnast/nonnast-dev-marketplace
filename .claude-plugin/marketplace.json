@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nonnast-dev",
+  "owner": {
+    "name": "Leon Nonnast",
+    "url": "https://nonnast.dev"
+  },
+  "metadata": {
+    "description": "Claude-Plugins für die Apps von nonnast.dev: MCP-Server plus Skills, die zeigen, wie man sie nutzt.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "culinari",
+      "source": "./plugins/culinari",
+      "description": "Culinari – Kochassistent mit KI-Koch-Familie: Rezepte sammeln und importieren, Wochenplan, Einkaufsliste, Resteküche, Nährwerte (BLS 4.0) und Schritt-für-Schritt-Kochen.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["kochen", "rezepte", "essensplanung", "einkaufsliste", "naehrwerte", "cooking", "recipes"],
+      "homepage": "https://culinari.nonnast.dev"
+    },
+    {
+      "name": "taskflow",
+      "source": "./plugins/taskflow",
+      "description": "TaskFlow – Aufgabenverwaltung im Browser und direkt im Chat: Aufgaben aus Mails und Meetings erfassen, Tages- und Wochenüberblick, Projekte mit Unteraufgaben planen, Routinen.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["aufgaben", "todo", "projekte", "kanban", "tasks", "productivity"],
+      "homepage": "https://www.task-flow.ai"
+    }
+  ]
+}

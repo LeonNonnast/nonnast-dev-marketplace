@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "taskflow": {
+      "type": "http",
+      "url": "https://www.task-flow.ai/mcp"
+    }
+  }
+}
