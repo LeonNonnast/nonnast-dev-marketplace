@@ -1,0 +1,22 @@
+{
+  "name": "hippocampus",
+  "description": "Hippocampus – das Langzeitgedächtnis für KI-Assistenten: Projekte, Entscheidungen (ADRs), Lösungen und Notizen merken und später wiederfinden, gemeinsam für alle verbundenen Assistenten. Zwei MCP-Server (Suchen und Merken) mit Anmeldung per E-Mail-Code (OAuth).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Leon Nonnast",
+    "url": "https://nonnast.dev"
+  },
+  "homepage": "https://hippocampus.nonnast.dev",
+  "repository": "https://github.com/LeonNonnast/nonnast-dev-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "gedaechtnis",
+    "wissen",
+    "notizen",
+    "adr",
+    "memory",
+    "knowledge",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://hippocampus.nonnast.dev/datenschutz"
+}

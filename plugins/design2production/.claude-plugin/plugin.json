@@ -1,0 +1,22 @@
+{
+  "name": "design2production",
+  "description": "Design2Production – digitales Atelier für Schnittmuster: Vorlage aussuchen, Konfektionsgröße wählen, Länge und Weite mit Reglern anpassen und das Schnittmuster auf A4 oder A3 zu Hause drucken. Gehosteter MCP-Server mit Anmeldung per E-Mail-Link (OAuth); Körpermaße bleiben in der App.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Leon Nonnast",
+    "url": "https://nonnast.dev"
+  },
+  "homepage": "https://d2p.nonnast.dev",
+  "repository": "https://github.com/LeonNonnast/nonnast-dev-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "naehen",
+    "schnittmuster",
+    "schnitt",
+    "sewing",
+    "pattern",
+    "atelier",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://d2p.nonnast.dev/datenschutz"
+}

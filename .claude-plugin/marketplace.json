@@ -7,9 +7,26 @@
   },
   "metadata": {
     "description": "Claude-Plugins für die Apps von nonnast.dev: MCP-Server plus Skills, die zeigen, wie man sie nutzt.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
+    {
+      "name": "nonnast-dev",
+      "source": "./plugins/nonnast-dev",
+      "description": "Alle Apps von nonnast.dev mit einer Installation: Culinari, TaskFlow, Instaslides, Hippocampus und Design2Production samt MCP-Servern und Skills.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": [
+        "bundle",
+        "alle",
+        "culinari",
+        "taskflow",
+        "instaslides",
+        "hippocampus",
+        "design2production"
+      ],
+      "homepage": "https://nonnast.dev"
+    },
     {
       "name": "culinari",
       "source": "./plugins/culinari",
@@ -58,6 +75,37 @@
         "yaml"
       ],
       "homepage": "https://instaslides.io"
+    },
+    {
+      "name": "hippocampus",
+      "source": "./plugins/hippocampus",
+      "description": "Hippocampus – Langzeitgedächtnis für KI-Assistenten: Projekte, Entscheidungen (ADRs), Lösungen und Notizen merken und wiederfinden, gemeinsam für alle verbundenen Assistenten.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": [
+        "gedaechtnis",
+        "wissen",
+        "notizen",
+        "adr",
+        "memory",
+        "knowledge"
+      ],
+      "homepage": "https://hippocampus.nonnast.dev"
+    },
+    {
+      "name": "design2production",
+      "source": "./plugins/design2production",
+      "description": "Design2Production – digitales Atelier für Schnittmuster: Vorlage aussuchen, Konfektionsgröße wählen, Länge und Weite mit Reglern anpassen und auf A4 oder A3 zu Hause drucken. Gehosteter MCP-Server, Anmeldung per E-Mail-Link; Körpermaße bleiben in der App.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": [
+        "naehen",
+        "schnittmuster",
+        "sewing",
+        "pattern",
+        "atelier"
+      ],
+      "homepage": "https://d2p.nonnast.dev"
     }
   ]
 }

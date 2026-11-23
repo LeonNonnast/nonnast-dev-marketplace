@@ -1,0 +1,27 @@
+{
+  "name": "nonnast-dev",
+  "description": "Alle Apps von nonnast.dev mit einer Installation: installiert Culinari, TaskFlow, Instaslides, Hippocampus und Design2Production samt MCP-Servern und Skills.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Leon Nonnast",
+    "url": "https://nonnast.dev"
+  },
+  "homepage": "https://nonnast.dev",
+  "repository": "https://github.com/LeonNonnast/nonnast-dev-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "bundle",
+    "culinari",
+    "taskflow",
+    "instaslides",
+    "hippocampus",
+    "design2production"
+  ],
+  "dependencies": [
+    "culinari",
+    "taskflow",
+    "instaslides",
+    "hippocampus",
+    "design2production"
+  ]
+}

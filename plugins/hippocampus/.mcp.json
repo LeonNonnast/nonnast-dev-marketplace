@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "hippocampus": {
+      "type": "http",
+      "url": "https://hippocampus.nonnast.dev/mcp"
+    },
+    "hippocampus-write": {
+      "type": "http",
+      "url": "https://hippocampus.nonnast.dev/ingest/mcp"
+    }
+  }
+}

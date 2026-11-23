@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "d2p": {
+      "type": "http",
+      "url": "https://d2p.nonnast.dev/mcp"
+    }
+  }
+}
