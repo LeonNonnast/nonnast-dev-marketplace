@@ -16,7 +16,15 @@
       "description": "Culinari – Kochassistent mit KI-Koch-Familie: Rezepte sammeln und importieren, Wochenplan, Einkaufsliste, Resteküche, Nährwerte (BLS 4.0) und Schritt-für-Schritt-Kochen.",
       "version": "0.1.0",
       "category": "productivity",
-      "keywords": ["kochen", "rezepte", "essensplanung", "einkaufsliste", "naehrwerte", "cooking", "recipes"],
+      "keywords": [
+        "kochen",
+        "rezepte",
+        "essensplanung",
+        "einkaufsliste",
+        "naehrwerte",
+        "cooking",
+        "recipes"
+      ],
       "homepage": "https://culinari.nonnast.dev"
     },
     {
@@ -25,8 +33,31 @@
       "description": "TaskFlow – Aufgabenverwaltung im Browser und direkt im Chat: Aufgaben aus Mails und Meetings erfassen, Tages- und Wochenüberblick, Projekte mit Unteraufgaben planen, Routinen.",
       "version": "0.1.0",
       "category": "productivity",
-      "keywords": ["aufgaben", "todo", "projekte", "kanban", "tasks", "productivity"],
+      "keywords": [
+        "aufgaben",
+        "todo",
+        "projekte",
+        "kanban",
+        "tasks",
+        "productivity"
+      ],
       "homepage": "https://www.task-flow.ai"
+    },
+    {
+      "name": "instaslides",
+      "source": "./plugins/instaslides",
+      "description": "Instaslides – animierte HTML-Präsentationen aus YAML: Folien schreiben lassen, prüfen, Vorschau direkt im Chat und Export als eine HTML-Datei. Gehosteter MCP-Server, Anmeldung per E-Mail-Link.",
+      "version": "0.2.0",
+      "category": "productivity",
+      "keywords": [
+        "praesentation",
+        "folien",
+        "slides",
+        "presentation",
+        "html",
+        "yaml"
+      ],
+      "homepage": "https://instaslides.io"
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "name": "instaslides",
+  "description": "Instaslides – animierte HTML-Präsentationen aus YAML: Claude schreibt die Folien, der Instaslides-MCP-Server prüft sie, zeigt sie direkt im Chat (MCP App) und exportiert eine einzelne HTML-Datei. Gehosteter Server mit Anmeldung per E-Mail-Link (OAuth); Free oder Pro.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Leon Nonnast",
+    "url": "https://nonnast.dev"
+  },
+  "homepage": "https://instaslides.io",
+  "repository": "https://github.com/LeonNonnast/nonnast-dev-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "praesentation",
+    "folien",
+    "slides",
+    "presentation",
+    "html",
+    "yaml",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://instaslides.io/privacy"
+}

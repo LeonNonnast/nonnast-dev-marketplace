@@ -6,6 +6,7 @@ Claude-Plugins für die Apps von [nonnast.dev](https://nonnast.dev). Jedes Plugi
 |---|---|---|
 | [`culinari`](plugins/culinari) | [Culinari](https://culinari.nonnast.dev) – Kochassistent mit KI-Koch-Familie | Rezepte sammeln und importieren, Wochenplan, Einkaufsliste, Resteküche, Nährwerte, Schritt-für-Schritt-Kochen |
 | [`taskflow`](plugins/taskflow) | [TaskFlow](https://www.task-flow.ai) – Aufgabenverwaltung | Aufgaben aus Mails/Meetings erfassen, Tages- und Wochenüberblick, Projekte planen, Routinen |
+| [`instaslides`](plugins/instaslides) | [Instaslides](https://instaslides.io) – animierte HTML-Präsentationen aus YAML | Folien schreiben, prüfen, Vorschau direkt im Chat, Export als eine HTML-Datei |
 
 ## Claude Code
 
@@ -13,9 +14,10 @@ Claude-Plugins für die Apps von [nonnast.dev](https://nonnast.dev). Jedes Plugi
 /plugin marketplace add LeonNonnast/nonnast-dev-marketplace
 /plugin install culinari@nonnast-dev
 /plugin install taskflow@nonnast-dev
+/plugin install instaslides@nonnast-dev
 ```
 
-Danach `/mcp` öffnen, den Server (`culinari` bzw. `taskflow`) wählen und im Browser anmelden. Die Skills greifen automatisch, z. B. bei „Plan mir die Woche“ oder „Was steht heute an?“.
+Danach `/mcp` öffnen, den Server (`culinari`, `taskflow` bzw. `instaslides`) wählen und im Browser anmelden. Die Skills greifen automatisch, z. B. bei „Plan mir die Woche“ oder „Was steht heute an?“.
 
 Hast du den Server schon vorher mit `claude mcp add` eingetragen, entferne den alten Eintrag (`claude mcp remove culinari`), damit die Tools nicht doppelt erscheinen.
 
@@ -26,6 +28,7 @@ Plugins gibt es dort nicht direkt; du kombinierst Connector und Skills:
 1. **Connector:** „Customize“ → „Connectors“ → „+ Add“ → „Add custom connector“ und die MCP-URL eintragen:
    - Culinari: `https://culinari.nonnast.dev/mcp`
    - TaskFlow: `https://www.task-flow.ai/mcp`
+   - Instaslides: `https://www.instaslides.io/mcp` (Präsentationen erscheinen direkt im Chat)
 
    Anmeldung (OAuth) stehen lassen, dann „Connect“.
 2. **Skills:** Die ZIPs aus dem neuesten [Release](https://github.com/LeonNonnast/nonnast-dev-marketplace/releases) laden – oder selbst bauen mit `scripts/package-skills.sh` – und unter „Customize“ → „Skills“ → „Upload skill“ einzeln hochladen. „Code execution“ muss in den Einstellungen aktiv sein.

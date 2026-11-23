@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "instaslides": {
+      "type": "http",
+      "url": "https://www.instaslides.io/mcp"
+    }
+  }
+}
